@@ -1,0 +1,203 @@
+@media screen and (max-width: 767px) {
+	body {
+		margin: 0 10px;
+	}
+	.row .column, .row .columns {
+		padding: 0 10px;
+	}
+	article, section {
+		padding: 10px 10px 14px;
+		h2 {
+			font-size: 1.8em;
+			line-height: 1.2em;
+		}
+		h4 {
+			&.time {
+				border-bottom: 1px solid rgba(0,0,0,0.07);
+				margin: 24px 0;
+				padding: 0 20px 8px;
+				a.expand {
+					position: relative;
+					float: right;
+					margin: -2px 0 0;
+					width: 24px;
+					height: 24px;
+					font-size: 18px;
+					line-height: 22px;
+				}
+				span {
+					&.count {
+						float: none;
+						text-align: left;
+						margin-top: 5px;
+						margin-left: 8px;
+						color: rgba(0,0,0,0.35);
+					}
+				}	
+			}
+		}	
+		.meta {
+			span {
+				display: block;
+				margin-bottom: 9px;
+				margin-right: 60px;
+				i {
+					color: rgba(0,0,0,0.25);
+					font-size: 1.25em;
+					vertical-align: 2px;
+					margin-right: 6px;
+					margin-top: -4px;
+					display: block;
+					width: 14px;
+					float: left;
+				}
+				a {
+					color: #b57519;
+					margin-right: 2px;
+					opacity: 1;
+					@include fade;
+				}
+				&.date {
+					margin-top: -20px;
+					span {
+						&.month {
+							margin-bottom: 0;
+						}
+						&.day {
+							margin-top: -2px;
+						}
+					}
+				}
+			}	
+		}
+		img {
+			margin: 8px auto 20px !important;
+			display: block;
+			width: 100%;
+		}
+		&.timeline {
+			border: none;
+			margin: 8px -12px;
+			&:before {
+				content: none;
+				display: hidden;
+			}
+			&:after {
+				content: none;
+				display: hidden;
+			}
+			h2 {
+				margin-left: 0;
+				padding: 18px 22px;
+				margin-top: 0;
+				font-size: 1.5em;
+			}
+			article {
+				margin-top: 6px;
+				h2 {
+					font-size: 1.1em;
+					padding: 6px 0 0 40px;
+					border: none;
+					float: right;
+					text-align: left;
+					width: 85%;
+					min-height: 38px;
+				}	
+				.meta {
+					margin-right: -24px;
+					margin-bottom: -56px;
+					border: none;
+					float: left;
+					width: 15%;
+					.date {
+						margin-top: -16px;
+						float: left;
+						text-align: center;
+						margin-left: 8px;
+					}		
+				}	
+			}
+		}
+		&.categories {
+			h2 {
+				padding: 10px 5px 26px;
+				margin-bottom: 0 10px 36px;
+			}
+		}
+	}
+	.main {
+		box-shadow: none; 
+		padding: 12px 26px !important;
+	}
+	.content {
+		background: transparent;
+	}
+	.sidebar {
+		box-shadow: none;
+		padding: 0 15px 0 0;
+	}
+	header {
+		.sidebar-zone {
+			border: none;
+		}
+	}
+	section {
+		padding: 0;
+	}
+	.search {
+		padding: 18px 18px 4px;
+		margin: 12px 0 0 0;
+	}
+	.header-space {
+		height: auto;
+	}	
+	.paging {
+		margin-bottom: 20px;
+	}
+	.footer-nav {
+		width: 100%;
+		li {
+			display: block;
+			width: 100%;
+			&:after {
+				content: none;
+			}
+		}
+	}
+	a.back-to-top {
+		font-size: 1em;
+		width: 100%;
+	}
+	footer {
+		height: auto;
+		padding-bottom: 14px;
+		.final {
+			text-align: center;	
+			border-top: none;
+			padding: 20px 0 0;
+		}
+		a.barley-badge {
+			float: none;
+			display: block;
+			margin: 0 0 10px -4px;
+		}
+		.copyright {
+			float: none;
+		}
+	}
+	[class*="block-grid-"] {
+		img {
+			margin-bottom: 0 !important;
+		}
+	}
+	.row.wrapper {
+		overflow: hidden;
+	}
+	img.reveal-modal {
+		width: 88%;
+		margin-left: -44%;
+	}
+	input.button {
+		width: 100%;
+	}
+}

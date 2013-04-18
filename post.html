@@ -1,0 +1,175 @@
+
+<!DOCTYPE html>
+<!--[if IE 8]> <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width" />
+	<title>Blog Template</title>
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="javascripts/foundation_4/stylesheets/normalize.css" />
+	<link rel="stylesheet" href="stylesheets/app.css" />
+	<link rel="stylesheet" href="stylesheets/offcanvas.css" />
+	<link rel="stylesheet" href="stylesheets/barlicons/barlicons.css" />
+
+	<!-- Google Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Alegreya:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=PT+Mono' rel='stylesheet' type='text/css'>
+
+	<script src="javascripts/foundation_4/javascripts/vendor/custom.modernizr.js"></script>
+
+</head>
+<body id="page" class="off-canvas hide-extras">
+
+	<!-- Header -->
+	<header>
+		<div class="identity show-for-small" id="identityTop"></div>
+		<a class="menu-toggle show-for-small sidebar-button" id="sidebarButton"><i class="barley-icon-reorder"></i></a>
+	</header>
+
+<div class="row wrapper">
+
+	<!-- Start Main Page Content -->
+	<section role="main">
+
+		<!-- Top Color Strip -->
+		<div class="row top-strip"></div>
+
+		<div class="row content">
+			<div class="large-8 columns main" id="left-col">
+
+			<!-- Post Content -->
+				<article class="group">
+					<h2 data-barley="blogpost_title" data-barley-editor="mini"></h2>
+
+					<div class="meta">
+						<span class="meta-publish-date">
+							<i class="barley-icon-time"></i><span class="published_on" id="blogpost_published_on" data-barley="blogpost_published_on"></span>
+						</span>
+						<!--<a href="%URL%">
+							<span class="date">%PUBLISHED_ON%</span>
+						</a>
+						<span class="meta-author">
+							<i class="barley-icon-user"></i>%AUTHOR%
+						</span>
+						<span class="meta-tags">
+							<i class="barley-icon-tag"></i><span>%CATEGORIES%</span>
+						</span>-->
+					</div>
+
+					<span data-barley="blogpost_body" data-barley-editor="advanced"></span>
+				</article>
+
+		</div>
+		<!-- Sidebar -->
+			<div class="large-4 columns sidebar hide-for-small" id="right-col">
+				<div id="sideNav">
+				<div class="hide-for-small">
+					<div class="sidebar-zone identity" id="identitySide">
+						<a href="index.html">
+							<!-- Photo --><img src="images/avatar.jpg" class="photo">
+							<!-- Logo --><!--<img src="images/logo.svg" width="160" height="160" class="logo"> -->
+							<!-- Text --><!--<h1>Porta Amet</h1>-->
+						</a>
+					</div>
+				</div>
+				<div class="sidebar-zone intro hide-for-small">
+					<p data-barley="sidebar_about" data-barley-editor="plus">The Red Oak theme was built with the blogger in mind. Powered by Barley.</p>
+				</div>
+				<div class="sidebar-zone search">
+					<script language="javascript">
+						function barleySearch() {
+							var hostname = window.location.hostname;
+							window.location = 'https://www.google.com/#output=search?q=site%3A'+hostname+'+'+encodeURIComponent($('#searchtext').val());
+						}
+					</script>
+					<form name="search-posts" method="post">
+						<input type="search" name="searchtext" id="searchtext" placeholder="Search Posts..." /><a href="#" onclick="barleySearch(); return false;" class="submit-button"><i class="barley-icon-circle-arrow-right"></i></a>
+					</form>
+				</div>
+				<div class="sidebar-zone nav-list">
+					<h3>Pages <i class="barley-icon-angle-right"></i></h3>
+					<ul>
+						<li><a href="index.html">Blog<i class="barley-icon-angle-right"></i></a></li>
+						<li><a href="about.html">About<i class="barley-icon-angle-right"></i></a></li>
+					</ul>
+				</div>
+				<div class="sidebar-zone social-list">
+					<h3>Find Me On</h3>
+					<ul>
+						<li><a href="http://twitter.com/cdevroe" title="Follow me on Twitter" rel="me"><i class="barley-icon-twitter"></i></a></li>
+						<li><a href="http://www.linkedin.com/in/cdevroe/" title"Connect with me on LinkedIn" rel="me"><i class="barley-icon-linkedin"></i></a></li>
+						<li><a href="http://github.com/cdevroe" title="Follow me on GitHub" rel="me"><i class="barley-icon-github"></i></a></li>
+					</ul>
+				</div>
+				<div class="sidebar-zone nav-list">
+					<h3>Links</h3>
+					<ul>
+						<li><a href="http://plainmade.com/">Plain<i class="barley-icon-angle-right"></i></a></li>
+						<li><a href="http://getbarley.com/">Barley<i class="barley-icon-angle-right"></i></a></li>
+					</ul>
+				</div>
+				<!--<div class="sidebar-zone ads hide-for-small">
+					<h3>Sponsors</h3>
+					<ul class="small-square">
+						<li><a href="#"><img src="images/sample_ad.png" width="125" height="125"></a></li>
+						<li><a href="#"><img src="images/sample_ad.png" width="125" height="125"></a></li>
+						<li><a href="#"><img src="images/sample_ad.png" width="125" height="125"></a></li>
+						<li><a href="#"><img src="images/sample_ad.png" width="125" height="125"></a></li>
+					</ul>
+				</div> -->
+			</div>
+			</div>
+			<!-- end Sidebar -->
+
+		</div>
+
+		<!-- Footer -->
+		<div class="row">
+			<footer>
+				<div class="footer-links group hide-for-small">
+					<a class="back-to-top" href="#top"><i class="barley-icon-circle-arrow-up"></i>Back to Top</a>
+					<ul class="footer-nav">
+						<li><a href="index.html">Blog</a></li>
+						<li><a href="about.html">About</a></li>
+					</ul>
+				</div>
+				<div class="final group">
+					<a class="barley-badge" href="http://getbarley.com"><i class="barley-icon-barley"></i>Powered by Barley</a>
+					<span class="copyright" data-barley="footer_copyright" data-barley-editor="mini">&copy; Colin Devroe. All rights reserved.</span>
+				</div>
+			</footer>
+		</div>
+
+	</section>
+	<!-- End Main Page Content -->
+
+	<!-- Mobile Nav -->
+	<section role="complementary">
+		<div id="sideMenu" class="sidebar show-for-small"></div>
+	</section>
+
+</div>
+
+  	<script src="javascripts/foundation_4/javascripts/foundation/foundation.js"></script>
+	<script src="javascripts/foundation_4/javascripts/foundation/foundation.alerts.js"></script>
+	<script src="javascripts/foundation_4/javascripts/foundation/foundation.clearing.js"></script>
+	<script src="javascripts/foundation_4/javascripts/foundation/foundation.cookie.js"></script>
+	<script src="javascripts/foundation_4/javascripts/foundation/foundation.dropdown.js"></script>
+	<script src="javascripts/foundation_4/javascripts/foundation/foundation.forms.js"></script>
+	<script src="javascripts/foundation_4/javascripts/foundation/foundation.joyride.js"></script>
+	<script src="javascripts/foundation_4/javascripts/foundation/foundation.magellan.js"></script>
+	<script src="javascripts/foundation_4/javascripts/foundation/foundation.orbit.js"></script>
+	<script src="javascripts/foundation_4/javascripts/foundation/foundation.placeholder.js"></script>
+	<script src="javascripts/foundation_4/javascripts/foundation/foundation.reveal.js"></script>
+	<script src="javascripts/foundation_4/javascripts/foundation/foundation.section.js"></script>
+	<script src="javascripts/foundation_4/javascripts/foundation/foundation.tooltips.js"></script>
+	<script src="javascripts/foundation_4/javascripts/foundation/foundation.topbar.js"></script>
+	<script src="javascripts/foundation_4/javascripts/foundation/jquery.offcanvas.js"></script>
+
+	<script src="javascripts/blog.js"></script>
+
+</body>
+</html>
