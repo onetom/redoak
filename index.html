@@ -5,11 +5,12 @@
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width" />
-	<title>Red Oak Template for Barley</title>
+	<title>Red Oak: A responsive blogging theme built for Barley</title>
 
 	<!-- Stylesheets -->
 	<link rel="stylesheet" href="javascripts/foundation_4/stylesheets/normalize.css" />
 	<link rel="stylesheet" href="stylesheets/app.css" />
+	<!-- Uncomment this line to style Red Oak yourself <link rel="stylesheet" href="stylesheets/custom.app.css" /> -->
 	<link rel="stylesheet" href="stylesheets/offcanvas.css" />
 	<link rel="stylesheet" href="stylesheets/barlicons/barlicons.css" />
 
@@ -91,7 +92,7 @@
 					<script language="javascript">
 						function barleySearch() {
 							var hostname = window.location.hostname;
-							window.location = 'https://www.google.com/#output=search?q=site%3A'+hostname+'+'+encodeURIComponent($('#searchtext').val());
+							window.location = 'https://www.google.com/search?q=site%3A'++hostname++'+'+encodeURIComponent($('#searchtext').val())+'&aq=f&oq=site%3A'++hostname++'+'+encodeURIComponent($('#searchtext').val());
 						}
 					</script>
 					<form name="search-posts" method="post">
@@ -101,8 +102,8 @@
 				<div class="sidebar-zone nav-list">
 					<h3>Pages <i class="barley-icon-angle-right"></i></h3>
 					<ul>
-						<li><a href="index.html">Blog<i class="barley-icon-angle-right"></i></a></li>
-						<li><a href="about.html">About<i class="barley-icon-angle-right"></i></a></li>
+						<li><a href="index.html" title="Go to homepage">Blog<i class="barley-icon-angle-right"></i></a></li>
+						<li><a href="about.html" title="Go to About page">About<i class="barley-icon-angle-right"></i></a></li>
 					</ul>
 				</div>
 				<div class="sidebar-zone social-list">
@@ -141,13 +142,13 @@
 				<div class="footer-links group hide-for-small">
 					<a class="back-to-top" href="#top"><i class="barley-icon-circle-arrow-up"></i>Back to Top</a>
 					<ul class="footer-nav">					
-						<li><a href="index.html">Blog</a></li>
-						<li><a href="about.html">About</a></li>
+						<li><a href="index.html" title="Go to homepage">Blog</a></li>
+						<li><a href="about.html" title="Go to About page">About</a></li>
 					</ul>
 				</div>
 				<div class="final group">
 					<a class="barley-badge" href="http://getbarley.com"><i class="barley-icon-barley"></i>Powered by Barley</a>
-					<span class="copyright" data-barley="footer_copyright" data-barley-editor="mini">&copy; Colin Devroe. All rights reserved.</span>
+					<span class="copyright" data-barley="footer_copyright" data-barley-editor="mini">&copy; John Doe. All rights reserved.</span>
 				</div>
 			</footer>
 		</div>
