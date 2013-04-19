@@ -24,6 +24,7 @@ Important: Your directory name for your template must match your Barley subdomai
 	- Update 2:
 		- Updated Search function.
 		- Updated Social links.
+		- Updated srcs for JS CSS
 	- Updated Search function.
 	- Added title attributes to navigation
 	- Changed footer Copyright text
