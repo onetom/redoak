@@ -78,7 +78,7 @@
 					<script language="javascript">
 						function barleySearch() {
 							var hostname = window.location.hostname;
-							window.location = 'https://www.google.com/search?q=site%3A'++hostname++'+'+encodeURIComponent($('#searchtext').val())+'&aq=f&oq=site%3A'++hostname++'+'+encodeURIComponent($('#searchtext').val());
+							window.location = 'https://www.google.com/search?q=site%3A'+hostname+'+'+encodeURIComponent($('#searchtext').val())+'&aq=f&oq=site%3A'+hostname+'+'+encodeURIComponent($('#searchtext').val());
 						}
 					</script>
 					<form name="search-posts" method="post">

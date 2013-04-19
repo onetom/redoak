@@ -10,8 +10,8 @@ Don't forget to review the [Barley Theme Documentation](http://plainmade.com/blo
 2. Copy stylesheets/sample.app.css to stylesheets/custom.app.css
 3. Edit custom.app.css for your needs
 4. Authenticate Barley with Dropbox.
-	a. Log into Barley
-	b. From the Barley Menu choose Sites > View / Edit All > Choose Sync Template option
+	- Log into Barley
+	- From the Barley Menu choose Sites > View / Edit All > Choose Sync Template option
 5. Place Red Oak into your Dropbox folder at /Dropbox/Apps/Barley Sync/sitename.getbarley.com
 6. When Dropbox syncs your template will be up-to-date
 
@@ -21,6 +21,9 @@ Important: Your directory name for your template must match your Barley subdomai
 ## Update history for Red Oak
 
 - April 19:
+	- Update 2:
+		- Updated Search function.
+		- Updated Social links.
 	- Updated Search function.
 	- Added title attributes to navigation
 	- Changed footer Copyright text

@@ -83,7 +83,7 @@
 					<script language="javascript">
 						function barleySearch() {
 							var hostname = window.location.hostname;
-							window.location = 'https://www.google.com/search?q=site%3A'++hostname++'+'+encodeURIComponent($('#searchtext').val())+'&aq=f&oq=site%3A'++hostname++'+'+encodeURIComponent($('#searchtext').val());
+							window.location = 'https://www.google.com/search?q=site%3A'+hostname+'+'+encodeURIComponent($('#searchtext').val())+'&aq=f&oq=site%3A'+hostname+'+'+encodeURIComponent($('#searchtext').val());
 						}
 					</script>
 					<form name="search-posts" method="post">
@@ -100,9 +100,8 @@
 				<div class="sidebar-zone social-list">
 					<h3>Find Me On</h3>
 					<ul>
-						<li><a href="http://twitter.com/cdevroe" title="Follow me on Twitter" rel="me"><i class="barley-icon-twitter"></i></a></li>
-						<li><a href="http://www.linkedin.com/in/cdevroe/" title"Connect with me on LinkedIn" rel="me"><i class="barley-icon-linkedin"></i></a></li>
-						<li><a href="http://github.com/cdevroe" title="Follow me on GitHub" rel="me"><i class="barley-icon-github"></i></a></li>
+						<li><a href="http://twitter.com/getbarley" title="Follow me on Twitter" rel="me"><i class="barley-icon-twitter"></i></a></li>
+						<li><a href="http://github.com/plainmade/redoak" title="Follow me on GitHub" rel="me"><i class="barley-icon-github"></i></a></li>
 					</ul>
 				</div>
 				<div class="sidebar-zone nav-list">
