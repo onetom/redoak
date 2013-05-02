@@ -2,25 +2,25 @@
 @import "_settings";
 
 // Comment out this import if you are customizing you imports below
-@import "foundation";
+//@import "foundation";
 
 // Import specific parts of Foundation by commenting the import "foundation"
 // and uncommenting what you want below. You must uncomment the following if customizing
 
-// @import "foundation/foundation-global"; // *always required
-// @import "foundation/components/global"; // *always required
-// @import "foundation/components/grid";
-// @import "foundation/components/visibility";
-// @import "foundation/components/block-grid";
-// @import "foundation/components/type";
-// @import "foundation/components/buttons";
-// @import "foundation/components/forms"; // *requires components/buttons
+   @import "foundation/foundation-global"; // *always required
+   @import "foundation/components/global"; // *always required
+   @import "foundation/components/grid";
+   @import "foundation/components/visibility";
+   @import "foundation/components/block-grid";
+   @import "foundation/components/type";
+   @import "foundation/components/buttons";
+   @import "foundation/components/forms"; // *requires components/buttons
 // @import "foundation/components/custom-forms"; // *requires components/buttons, components/forms
 // @import "foundation/components/button-groups"; // *requires components/buttons
 // @import "foundation/components/dropdown-buttons"; // *requires components/buttons
 // @import "foundation/components/split-buttons"; // *requires components/buttons
-// @import "foundation/components/flex-video";
-// @import "foundation/components/section";
+   @import "foundation/components/flex-video";
+   @import "foundation/components/section";
 // @import "foundation/components/top-bar";  // *requires components/grid
 // @import "foundation/components/orbit";
 // @import "foundation/components/reveal";
@@ -39,8 +39,8 @@
 // @import "foundation/components/sub-nav";
 // @import "foundation/components/switch";
 // @import "foundation/components/magellan";
-// @import "foundation/components/tables";
-// @import "foundation/components/thumbs";
+   @import "foundation/components/tables";
+   @import "foundation/components/thumbs";
 // @import "foundation/components/tooltips";
 // @import "foundation/components/dropdown";
 
@@ -132,7 +132,7 @@ header {
 .main {
 	background: #fff;
 	border-top: 1px solid rgba(255,255,255,0.5);
-	box-shadow: 0 1px 0 0 rgba(255,255,255,1) inset, 0 -30px 64px -28px rgba(0,0,0,0.16) inset;
+	box-shadow: 0 1px 0 0 rgba(255,255,255,1) inset, 0 -30px 64px -28px rgba(0,0,0,0.09) inset, 2px 0 5px 0 rgba(0,0,0,0.045), 0 1px 3px 0 rgba(0,0,0,0.05);
 	padding-top: 13px;
 	padding-bottom: 30px;
 }
@@ -149,7 +149,7 @@ header {
 
 .sidebar {
 	padding: 20px;
-	box-shadow: 220px 0 630px -80px rgba(0,0,0,0.01) inset, 1px 0 4px 0 rgba(0,0,0,0.08) inset;
+	//box-shadow: 220px 0 630px -80px rgba(0,0,0,0.01) inset, 1px 0 4px 0 rgba(0,0,0,0.08) inset;
 }
 
 /*.sidebar-shadow {
@@ -226,7 +226,7 @@ article, section {
 		border-top: 1px solid rgba(0,0,0,0.1);
 		height: 36px;
 		padding: 14px 0;
-		margin-bottom: 56px;
+		margin-bottom: 36px;
 		span {
 			font-style: italic;
 			font-size: 0.8em;
@@ -739,7 +739,38 @@ form {
 
 	}
 }
+.nav-link-list {
+	padding: 10px 20px 8px;
+	margin: 10px 0;
+	border-bottom: none;
+	ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		li {
+			font-size: 0.9em;
+			border-bottom: 1px dotted rgba(0,0,0,0.06);
+			padding: 7px 0 6px;
+			background-image: url(../images/nav_arrow.svg);
+			background-position: top right;
+			background-repeat: no-repeat;
+			background-size: 18px 22px;
+			a {
+				color: #b57519;
+				opacity: 1;
+				@include fade;
+				&:hover {
+					opacity: 0.65;
+					@include fade;
+				}
+			}
+			i {
+				float: right;
+			}
+		}
 
+	}
+}
 .social-list {
 	padding: 10px 20px 8px;
 	margin: 10px 0 40px;
