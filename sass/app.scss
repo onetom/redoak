@@ -87,8 +87,9 @@ a {
 }
 
 header {
-	min-height: 10px;
-	margin: 10px auto;
+	min-height: 30px;
+	margin: 0 auto;
+	padding: 10px 0;
 	.identity {
 		padding: 14px 20px 0;
 		text-align: center;
@@ -980,6 +981,9 @@ footer {
 		float: left;
 		line-height: 20px;
 		color: rgba(0,0,0,0.36);
+		&:hover {
+			border: none;
+		}
 		i {
 			text-align: center;
 			font-size: 24px;
