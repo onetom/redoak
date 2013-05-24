@@ -8,17 +8,17 @@
 	<title></title>
 
 	<!-- Stylesheets -->
-	<link rel="stylesheet" href="/javascripts/foundation_4/stylesheets/normalize.css" />
-	<link rel="stylesheet" href="/stylesheets/app.css" />
+	<link rel="stylesheet" href="javascripts/foundation_4/stylesheets/normalize.css" />
+	<link rel="stylesheet" href="stylesheets/app.css" />
 	<!-- Uncomment this line to style Red Oak yourself <link rel="stylesheet" href="/stylesheets/custom.app.css" /> -->
-	<link rel="stylesheet" href="/stylesheets/offcanvas.css" />
-	<link rel="stylesheet" href="/stylesheets/barlicons/barlicons.css" />
+	<link rel="stylesheet" href="stylesheets/offcanvas.css" />
+	<link rel="stylesheet" href="stylesheets/barlicons/barlicons.css" />
 
 	<!-- Google Fonts -->
-	<link href='//fonts.googleapis.com/css?family=Alegreya:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
-	<link href='//fonts.googleapis.com/css?family=PT+Mono' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Alegreya:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=PT+Mono' rel='stylesheet' type='text/css'>
 
-	<script src="/javascripts/foundation_4/javascripts/vendor/custom.modernizr.js"></script>
+	<script src="javascripts/foundation_4/javascripts/vendor/custom.modernizr.js"></script>
 
 </head>
 <body id="page" class="off-canvas hide-extras">
@@ -47,128 +47,140 @@
 					<h2 data-barley="photos_title" data-barley-editor="mini">Name Your New Photo Album</h2>
 
 					<!-- barley:owneronly -->
-					<div id="album_tools"><p><strong>Choose a layout:</strong> <a data-album="1" href="#album-1">Photo Album 1</a> <a data-album="2" href="#album-2">Photo Album 2</a> <a data-album="3" href="#album-3">Photo Album 3</a> <a data-album="4" href="#album-4">Photo Album 4</a></p></div>
+					<div id="album_tools"><p><strong>Choose a layout:</strong> <a data-album="1" href="#album-1">Photo Album 1</a> <a data-album="2" href="#album-2">Photo Album 2</a> <a data-album="3" href="#album-3">Photo Album 3</a> 
+						<!--<a data-album="4" href="#album-4">Photo Album 4</a></p></div>-->
 					<!-- end barley:owneronly -->
 
 					<!-- Default is Photo Album 1 -->
 					<div id="photo_album" data-barley="photos_content" data-barley-editor="advanced">
-						
-						<p><img class="left" src="http://placehold.it/240x160&text=Left Image" /> <img class="left" src="http://placehold.it/240x160&text=Right Image" /></p>
+						<div class="photo-grid-1up">
+							<p><img class="small" src="http://placehold.it/500x300&text=.small" /> 
+								<img class="small" src="http://placehold.it/500x300&text=.small" /></p>
 
-						<p><img src="http://placehold.it/600x400&text=Additional Images" /><br />Image caption. Credit. Date taken.</p>
+							<p><img src="http://placehold.it/600x400&text=Additional Images" /><br />Image caption. Credit. Date taken.</p>
 
-						<p><img src="http://placehold.it/600x400&text=Additional Image" /></p>
-						<p>An entire paragraph of text about where the above photo was taken, who was in it, what you did with your time there, the colors in the photograph and more. Also, an <a href="http://getbarley.com/">optional link</a> might be nice.</p>
+							<p><img src="http://placehold.it/600x400&text=Additional Image" /></p>
+							<p>An entire paragraph of text about where the above photo was taken, who was in it, what you did with your time there, the colors in the photograph and more. Also, an <a href="http://getbarley.com/">optional link</a> might be nice.</p>
 
-						<p><img src="http://placehold.it/600x400&text=Additional Image" /><br />Image caption. Credit. Date taken.</p>
+							<p><img src="http://placehold.it/600x400&text=Additional Image" /><br />Image caption. Credit. Date taken.</p>
 
-						<p><img src="http://placehold.it/600x400&text=Additional Image" /><br />Image caption. Credit. Date taken.</p>
+							<p><img src="http://placehold.it/600x400&text=Additional Image" /><br />Image caption. Credit. Date taken.</p>
 
-						<p><img src="http://placehold.it/600x400&text=Additional Image" /><br />Image caption. Credit. Date taken.</p>
+							<p><img src="http://placehold.it/600x400&text=Additional Image" /><br />Image caption. Credit. Date taken.</p>
 
-						<p><img src="http://placehold.it/600x400&text=Additional Image" /><br />Image caption. Credit. Date taken.</p>
+							<p><img src="http://placehold.it/600x400&text=Additional Image" /><br />Image caption. Credit. Date taken.</p>
 
-						<p><img src="http://placehold.it/600x400&text=Additional Image" /><br />Image caption. Credit. Date taken.</p>
+							<p><img src="http://placehold.it/600x400&text=Additional Image" /><br />Image caption. Credit. Date taken.</p>
 
-						<p><img src="http://placehold.it/600x400&text=Additional Image" /><br />Image caption. Credit. Date taken.</p>
+							<p><img src="http://placehold.it/600x400&text=Additional Image" /><br />Image caption. Credit. Date taken.</p>
 
-						<p><img src="http://placehold.it/600x400&text=Additional Image" /><br />Image caption. Credit. Date taken.</p>
+							<p><img src="http://placehold.it/600x400&text=Additional Image" /><br />Image caption. Credit. Date taken.</p>
 
-						<p><img src="http://placehold.it/600x400&text=Additional Image" /><br />Image caption. Credit. Date taken.</p>
-
+							<p><img src="http://placehold.it/600x400&text=Additional Image" /><br />Image caption. Credit. Date taken.</p>
+						</div>
 					</div>
 
 					<div style="display: none;" id="album-1">
-						<p><img class="left" src="http://placehold.it/240x160&text=Left Image" /> <img class="left" src="http://placehold.it/240x160&text=Right Image" /></p>
+						<div class="photo-grid-1up">
+							<p><img class="small" src="http://placehold.it/500x300&text=.small" /> 
+								<img class="small" src="http://placehold.it/500x300&text=.small" /></p>
 
-						<p><img src="http://placehold.it/600x400&text=Additional Images" /><br />Image caption. Credit. Date taken.</p>
+							<p><img src="http://placehold.it/600x400&text=Additional Images" /><br />Image caption. Credit. Date taken.</p>
 
-						<p><img src="http://placehold.it/600x400&text=Additional Image" /></p>
-						<p>An entire paragraph of text about where the above photo was taken, who was in it, what you did with your time there, the colors in the photograph and more. Also, an <a href="http://getbarley.com/">optional link</a> might be nice.</p>
+							<p><img src="http://placehold.it/600x400&text=Additional Image" /></p>
+							<p>An entire paragraph of text about where the above photo was taken, who was in it, what you did with your time there, the colors in the photograph and more. Also, an <a href="http://getbarley.com/">optional link</a> might be nice.</p>
 
-						<p><img src="http://placehold.it/600x400&text=Additional Image" /><br />Image caption. Credit. Date taken.</p>
+							<p><img src="http://placehold.it/600x400&text=Additional Image" /><br />Image caption. Credit. Date taken.</p>
 
-						<p><img src="http://placehold.it/600x400&text=Additional Image" /><br />Image caption. Credit. Date taken.</p>
+							<p><img src="http://placehold.it/600x400&text=Additional Image" /><br />Image caption. Credit. Date taken.</p>
 
-						<p><img src="http://placehold.it/600x400&text=Additional Image" /><br />Image caption. Credit. Date taken.</p>
+							<p><img src="http://placehold.it/600x400&text=Additional Image" /><br />Image caption. Credit. Date taken.</p>
 
-						<p><img src="http://placehold.it/600x400&text=Additional Image" /><br />Image caption. Credit. Date taken.</p>
+							<p><img src="http://placehold.it/600x400&text=Additional Image" /><br />Image caption. Credit. Date taken.</p>
 
-						<p><img src="http://placehold.it/600x400&text=Additional Image" /><br />Image caption. Credit. Date taken.</p>
+							<p><img src="http://placehold.it/600x400&text=Additional Image" /><br />Image caption. Credit. Date taken.</p>
 
-						<p><img src="http://placehold.it/600x400&text=Additional Image" /><br />Image caption. Credit. Date taken.</p>
+							<p><img src="http://placehold.it/600x400&text=Additional Image" /><br />Image caption. Credit. Date taken.</p>
 
-						<p><img src="http://placehold.it/600x400&text=Additional Image" /><br />Image caption. Credit. Date taken.</p>
+							<p><img src="http://placehold.it/600x400&text=Additional Image" /><br />Image caption. Credit. Date taken.</p>
 
-						<p><img src="http://placehold.it/600x400&text=Additional Image" /><br />Image caption. Credit. Date taken.</p>
-
+							<p><img src="http://placehold.it/600x400&text=Additional Image" /><br />Image caption. Credit. Date taken.</p>
+						</div>
 					</div>
 
 					<div style="display: none;" id="album-2">
-						<p><img class="left" src="http://placehold.it/140x90&text=Left Image" /> <img class="left" src="http://placehold.it/140x90&text=Center Image" /> <img class="left" src="http://placehold.it/140x90&text=Right Image" /></p>
+						<div class="photo-grid-3up">
 
-						<p><img class="left" src="http://placehold.it/140x90&text=Left Image" /> <img class="left" src="http://placehold.it/140x90&text=Center Image" /> <img class="left" src="http://placehold.it/140x90&text=Right Image" /></p>
+							<img src="http://placehold.it/300x200&text=Left Image" /> 
+							<img src="http://placehold.it/300x200&text=Center Image" /> 
+							<img src="http://placehold.it/300x200&text=Right Image" />
 
-						<p><img class="left" src="http://placehold.it/140x90&text=Left Image" /> <img class="left" src="http://placehold.it/140x90&text=Center Image" /> <img class="left" src="http://placehold.it/140x90&text=Right Image" /></p>
+							<img src="http://placehold.it/300x200&text=Left Image" /> 
+							<img src="http://placehold.it/300x200&text=Center Image" /> 
+							<img src="http://placehold.it/300x200&text=Right Image" />
 
-						<p><img class="left" src="http://placehold.it/140x90&text=Left Image" /> <img class="left" src="http://placehold.it/140x90&text=Center Image" /> <img class="left" src="http://placehold.it/140x90&text=Right Image" /></p>
+							<img src="http://placehold.it/300x200&text=Left Image" /> 
+							<img src="http://placehold.it/300x200&text=Center Image" /> 
+							<img src="http://placehold.it/300x200&text=Right Image" />
 
+							<img src="http://placehold.it/300x200&text=Left Image" /> 
+							<img src="http://placehold.it/300x200&text=Center Image" /> 
+							<img src="http://placehold.it/300x200&text=Right Image" />
 
+							<img src="http://placehold.it/300x200&text=Left Image" /> 
+							<img src="http://placehold.it/300x200&text=Center Image" /> 
+							<img src="http://placehold.it/300x200&text=Right Image" />
+
+							<p>Cras mattis consectetur purus sit amet fermentum. Nullam quis risus eget urna mollis ornare vel eu leo. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Maecenas faucibus mollis interdum. Cras mattis consectetur purus sit amet fermentum. Maecenas faucibus mollis interdum. Donec id elit non mi porta gravida at eget metus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam id dolor id nibh ultricies vehicula ut id elit. Etiam porta sem malesuada magna mollis euismod.</p>
+
+						</div>	
 					</div>
 
 					<div style="display: none;" id="album-3">
-						<p><img class="left" src="http://placehold.it/320x160&text=Left Image" /> Image caption. Credit. Date taken. Etc.</p>
+						<div class="photo-grid-2up">
 
-						<p><img class="right" src="http://placehold.it/320x160&text=Right Image" /> Image caption. Credit. Date taken. Etc.</p>
+							<img src="http://placehold.it/300x200&text=Left Image" /> 
+							<img src="http://placehold.it/300x200&text=Right Image" />
 
-						<p><img class="left" src="http://placehold.it/320x160&text=Left Image" /> Image caption. Credit. Date taken. Etc.</p>
+							<img src="http://placehold.it/300x200&text=Left Image" /> 
+							<img src="http://placehold.it/300x200&text=Right Image" />
 
-						<p><img class="right" src="http://placehold.it/320x160&text=Right Image" /> Image caption. Credit. Date taken. Etc.</p>
+							<img src="http://placehold.it/300x200&text=Left Image" /> 
+							<img src="http://placehold.it/300x200&text=Right Image" />
 
-						<p><img class="left" src="http://placehold.it/320x160&text=Left Image" /> Image caption. Credit. Date taken. Etc.</p>
+							<img src="http://placehold.it/300x200&text=Left Image" /> 
+							<img src="http://placehold.it/300x200&text=Right Image" />
 
-						<p><img class="right" src="http://placehold.it/320x160&text=Right Image" /> Image caption. Credit. Date taken. Etc.</p>
+							<p>Cras mattis consectetur purus sit amet fermentum. Nullam quis risus eget urna mollis ornare vel eu leo. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Maecenas faucibus mollis interdum. Cras mattis consectetur purus sit amet fermentum. Maecenas faucibus mollis interdum. Donec id elit non mi porta gravida at eget metus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam id dolor id nibh ultricies vehicula ut id elit. Etiam porta sem malesuada magna mollis euismod.</p>
 
-						<p><img class="left" src="http://placehold.it/320x160&text=Left Image" /> Image caption. Credit. Date taken. Etc.</p>
-
-						<p><img class="right" src="http://placehold.it/320x160&text=Right Image" /> Image caption. Credit. Date taken. Etc.</p>
-
-						<p><img class="left" src="http://placehold.it/320x160&text=Left Image" /> Image caption. Credit. Date taken. Etc.</p>
-
-						<p><img class="right" src="http://placehold.it/320x160&text=Right Image" /> Image caption. Credit. Date taken. Etc.</p>
-
-						<p><img class="left" src="http://placehold.it/320x160&text=Left Image" /> Image caption. Credit. Date taken. Etc.</p>
-
-						<p><img class="right" src="http://placehold.it/320x160&text=Right Image" /> Image caption. Credit. Date taken. Etc.</p>
-
-						
+						</div>
 					</div>
 
 					<div style="display: none;" id="album-4">
-						<p><img src="http://placehold.it/600x400&text=Additional Images" /><br />Image caption. Credit. Date taken.</p>
+						<p><img class="left" src="http://placehold.it/320x160&text=Left Image" /> Image caption. Credit. Date taken. Etc.</p>
 
-						<p><img src="http://placehold.it/600x400&text=Additional Images" /><br />Image caption. Credit. Date taken.</p>
+						<p><img class="right" src="http://placehold.it/320x160&text=Right Image" /> Image caption. Credit. Date taken. Etc.</p>
 
-						<p><img src="http://placehold.it/600x400&text=Additional Images" /><br />Image caption. Credit. Date taken.</p>
+						<p><img class="left" src="http://placehold.it/320x160&text=Left Image" /> Image caption. Credit. Date taken. Etc.</p>
 
-						<p><img src="http://placehold.it/600x400&text=Additional Images" /><br />Image caption. Credit. Date taken.</p>
+						<p><img class="right" src="http://placehold.it/320x160&text=Right Image" /> Image caption. Credit. Date taken. Etc.</p>
 
-						<p><img src="http://placehold.it/600x400&text=Additional Images" /><br />Image caption. Credit. Date taken.</p>
+						<p><img class="left" src="http://placehold.it/320x160&text=Left Image" /> Image caption. Credit. Date taken. Etc.</p>
 
-						<p><img src="http://placehold.it/600x400&text=Additional Images" /><br />Image caption. Credit. Date taken.</p>
+						<p><img class="right" src="http://placehold.it/320x160&text=Right Image" /> Image caption. Credit. Date taken. Etc.</p>
 
-						<p><img src="http://placehold.it/600x400&text=Additional Images" /><br />Image caption. Credit. Date taken.</p>
+						<p><img class="left" src="http://placehold.it/320x160&text=Left Image" /> Image caption. Credit. Date taken. Etc.</p>
 
-						<p><img src="http://placehold.it/600x400&text=Additional Images" /><br />Image caption. Credit. Date taken.</p>
+						<p><img class="right" src="http://placehold.it/320x160&text=Right Image" /> Image caption. Credit. Date taken. Etc.</p>
 
-						<p><img src="http://placehold.it/600x400&text=Additional Images" /><br />Image caption. Credit. Date taken.</p>
+						<p><img class="left" src="http://placehold.it/320x160&text=Left Image" /> Image caption. Credit. Date taken. Etc.</p>
 
-						<p><img src="http://placehold.it/600x400&text=Additional Images" /><br />Image caption. Credit. Date taken.</p>
+						<p><img class="right" src="http://placehold.it/320x160&text=Right Image" /> Image caption. Credit. Date taken. Etc.</p>
 
-						<p><img src="http://placehold.it/600x400&text=Additional Images" /><br />Image caption. Credit. Date taken.</p>
+						<p><img class="left" src="http://placehold.it/320x160&text=Left Image" /> Image caption. Credit. Date taken. Etc.</p>
 
-						<p><img src="http://placehold.it/600x400&text=Additional Images" /><br />Image caption. Credit. Date taken.</p>
-					</div>
+						<p><img class="right" src="http://placehold.it/320x160&text=Right Image" /> Image caption. Credit. Date taken. Etc.</p>
+					</div>	
 
 				</article>
 
@@ -261,17 +273,17 @@
 
 </div>
 
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  	<script src="/javascripts/foundation_4/javascripts/foundation/foundation.js"></script>
-	<script src="/javascripts/foundation_4/javascripts/foundation/foundation.clearing.js"></script>
-	<script src="/javascripts/foundation_4/javascripts/foundation/foundation.cookie.js"></script>
-	<script src="/javascripts/foundation_4/javascripts/foundation/foundation.forms.js"></script>
-	<script src="/javascripts/foundation_4/javascripts/foundation/foundation.orbit.js"></script>
-	<script src="/javascripts/foundation_4/javascripts/foundation/foundation.placeholder.js"></script>
-	<script src="/javascripts/foundation_4/javascripts/foundation/foundation.section.js"></script>
-	<script src="/javascripts/foundation_4/javascripts/foundation/jquery.offcanvas.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  	<script src="javascripts/foundation_4/javascripts/foundation/foundation.js"></script>
+	<script src="javascripts/foundation_4/javascripts/foundation/foundation.clearing.js"></script>
+	<script src="javascripts/foundation_4/javascripts/foundation/foundation.cookie.js"></script>
+	<script src="javascripts/foundation_4/javascripts/foundation/foundation.forms.js"></script>
+	<script src="javascripts/foundation_4/javascripts/foundation/foundation.orbit.js"></script>
+	<script src="javascripts/foundation_4/javascripts/foundation/foundation.placeholder.js"></script>
+	<script src="javascripts/foundation_4/javascripts/foundation/foundation.section.js"></script>
+	<script src="javascripts/foundation_4/javascripts/foundation/jquery.offcanvas.js"></script>
 
-	<script src="/javascripts/blog.js"></script>
+	<script src="javascripts/blog.js"></script>
 
 </body>
 </html>

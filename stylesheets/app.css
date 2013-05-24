@@ -2803,6 +2803,54 @@ img.reveal-modal {
   width: 70%;
   margin-left: -35%; }
 
+.photo-grid-3up {
+  margin-right: -5%;
+}
+.photo-grid-3up img {
+  float: left;
+  max-width: 30%;
+  margin-right: 14px;
+  margin-bottom: 14px; 
+}  
+.photo-grid-3up img:last-of-type {
+  margin-bottom: 32px; 
+} 
+.photo-grid-3up p,.photo-grid-3up h1,.photo-grid-3up h2,.photo-grid-3up h3,.photo-grid-3up h4,.photo-grid-3up h5,.photo-grid-3up h6,.photo-grid-3up li,.photo-grid-3up ul,.photo-grid-3up blockquote {
+  margin-right: 5%;
+}
+.photo-grid-2up {
+  margin-right: -5%;
+}
+.photo-grid-2up img {
+  float: left;
+  max-width: 46%;
+  margin-right: 17px;
+  margin-bottom: 17px; 
+}  
+.photo-grid-2up img:last-of-type {
+  margin-bottom: 32px; 
+}  
+.photo-grid-2up p,.photo-grid-2up h1,.photo-grid-2up h2,.photo-grid-2up h3,.photo-grid-2up h4,.photo-grid-2up h5,.photo-grid-2up h6,.photo-grid-2up li,.photo-grid-2up ul,.photo-grid-2up blockquote {
+  margin-right: 5%;
+}
+.photo-grid-1up {
+  margin-right: -5%;
+}
+.photo-grid-1up img.small {
+  float: left;
+  max-width: 48%;
+  margin-right: 14px;
+  margin-bottom: 24px;
+}  
+.photo-grid-1up img.small:nth-child(even) {
+  margin-right: 0;
+  float: right;
+}  
+.photo-grid-1up p,.photo-grid-2up h1,.photo-grid-2up h2,.photo-grid-2up h3,.photo-grid-2up h4,.photo-grid-2up h5,.photo-grid-2up h6,.photo-grid-2up li,.photo-grid-2up ul,.photo-grid-2up blockquote {
+  margin-right: 5%;
+}
+
+
 @media screen and (max-width: 767px) {
   body {
     margin: 0 10px; }
@@ -2967,4 +3015,30 @@ img.reveal-modal {
     margin-left: -44%; }
 
   input.button {
-    width: 100%; } }
+    width: 100%; } 
+  
+  .photo-grid-3up {
+    margin-right: 0;
+  }
+  .photo-grid-3up img {
+    float: none;
+    max-width: 100%;
+    margin-right: 0;
+    margin-bottom: 14px; 
+  }  
+  .photo-grid-3up img:last-of-type {
+    margin-bottom: 32px; 
+  }  
+  .photo-grid-2up {
+    margin-right: 0;
+  }
+  .photo-grid-2up img {
+    float: none;
+    max-width: 100%;
+    margin-right: 0;
+    margin-bottom: 14px; 
+  }  
+  .photo-grid-2up img:last-of-type {
+    margin-bottom: 32px; 
+  }  
+}
