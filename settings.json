@@ -4,8 +4,7 @@
     "creator_url": "http://plainmade.com",
     "post_types": [
     	{
-    		"type_name": "Photo Album",
-    		"slug": "photos"
+    		"photos": "Photo Album"
     	}
     ]
 }
