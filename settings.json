@@ -2,9 +2,8 @@
     "name": "Red Oak",
     "creator": "The Plain Team",
     "creator_url": "http://plainmade.com",
-    "content_types": [
-    	{
-    		"photos": "Photo Album"
-    	}
-    ]
+    "content_types": {
+        "photos": "Photo Album"
+    }
+
 }
