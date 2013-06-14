@@ -44,7 +44,7 @@
 				<article class="group">
 					<div data-barley="photos_cover" data-barley-editor="image-special"><img src="http://placehold.it/600x400&text=Album Cover Image" /></div>
 
-					<h2 data-barley="photos_title" data-barley-editor="mini">Name Your New Photo Album</h2>
+					<h2 id="ddtitle" data-barley="photos_title" data-barley-editor="mini">Name Your New Photo Album</h2>
 
 					<!-- barley:owneronly -->
 					<div id="album_tools"><p><strong>Choose a layout:</strong> <a data-album="1" href="#album-1">Photo Album 1</a> <a data-album="2" href="#album-2">Photo Album 2</a> <a data-album="3" href="#album-3">Photo Album 3</a></p></div>
@@ -53,7 +53,7 @@
 					<!-- Default is Photo Album 1 -->
 					<div id="photo_album" data-barley="photos_content" data-barley-editor="advanced">
 						<div class="photo-grid-1up">
-							<p><img class="small" src="http://placehold.it/500x300&text=.small" /> 
+							<p><img class="small" src="http://placehold.it/500x300&text=.small" />
 								<img class="small" src="http://placehold.it/500x300&text=.small" /></p>
 
 							<p><img src="http://placehold.it/600x400&text=Additional Images" /><br />Image caption. Credit. Date taken.</p>
@@ -79,9 +79,10 @@
 						</div>
 					</div>
 
+					<!-- barley:owneronly -->
 					<div style="display: none;" id="album-1">
 						<div class="photo-grid-1up">
-							<p><img class="small" src="http://placehold.it/500x300&text=.small" /> 
+							<p><img class="small" src="http://placehold.it/500x300&text=.small" />
 								<img class="small" src="http://placehold.it/500x300&text=.small" /></p>
 
 							<p><img src="http://placehold.it/600x400&text=Additional Images" /><br />Image caption. Credit. Date taken.</p>
@@ -106,54 +107,53 @@
 							<p><img src="http://placehold.it/600x400&text=Additional Image" /><br />Image caption. Credit. Date taken.</p>
 						</div>
 					</div>
-
 					<div style="display: none;" id="album-2">
 						<div class="photo-grid-3up">
 
-							<img src="http://placehold.it/300x200&text=Left Image" /> 
-							<img src="http://placehold.it/300x200&text=Center Image" /> 
+							<img src="http://placehold.it/300x200&text=Left Image" />
+							<img src="http://placehold.it/300x200&text=Center Image" />
 							<img src="http://placehold.it/300x200&text=Right Image" />
 
-							<img src="http://placehold.it/300x200&text=Left Image" /> 
-							<img src="http://placehold.it/300x200&text=Center Image" /> 
+							<img src="http://placehold.it/300x200&text=Left Image" />
+							<img src="http://placehold.it/300x200&text=Center Image" />
 							<img src="http://placehold.it/300x200&text=Right Image" />
 
-							<img src="http://placehold.it/300x200&text=Left Image" /> 
-							<img src="http://placehold.it/300x200&text=Center Image" /> 
+							<img src="http://placehold.it/300x200&text=Left Image" />
+							<img src="http://placehold.it/300x200&text=Center Image" />
 							<img src="http://placehold.it/300x200&text=Right Image" />
 
-							<img src="http://placehold.it/300x200&text=Left Image" /> 
-							<img src="http://placehold.it/300x200&text=Center Image" /> 
+							<img src="http://placehold.it/300x200&text=Left Image" />
+							<img src="http://placehold.it/300x200&text=Center Image" />
 							<img src="http://placehold.it/300x200&text=Right Image" />
 
-							<img src="http://placehold.it/300x200&text=Left Image" /> 
-							<img src="http://placehold.it/300x200&text=Center Image" /> 
-							<img src="http://placehold.it/300x200&text=Right Image" />
-
-							<p>Cras mattis consectetur purus sit amet fermentum. Nullam quis risus eget urna mollis ornare vel eu leo. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Maecenas faucibus mollis interdum. Cras mattis consectetur purus sit amet fermentum. Maecenas faucibus mollis interdum. Donec id elit non mi porta gravida at eget metus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam id dolor id nibh ultricies vehicula ut id elit. Etiam porta sem malesuada magna mollis euismod.</p>
-
-						</div>	
-					</div>
-
-					<div style="display: none;" id="album-3">
-						<div class="photo-grid-2up">
-
-							<img src="http://placehold.it/300x200&text=Left Image" /> 
-							<img src="http://placehold.it/300x200&text=Right Image" />
-
-							<img src="http://placehold.it/300x200&text=Left Image" /> 
-							<img src="http://placehold.it/300x200&text=Right Image" />
-
-							<img src="http://placehold.it/300x200&text=Left Image" /> 
-							<img src="http://placehold.it/300x200&text=Right Image" />
-
-							<img src="http://placehold.it/300x200&text=Left Image" /> 
+							<img src="http://placehold.it/300x200&text=Left Image" />
+							<img src="http://placehold.it/300x200&text=Center Image" />
 							<img src="http://placehold.it/300x200&text=Right Image" />
 
 							<p>Cras mattis consectetur purus sit amet fermentum. Nullam quis risus eget urna mollis ornare vel eu leo. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Maecenas faucibus mollis interdum. Cras mattis consectetur purus sit amet fermentum. Maecenas faucibus mollis interdum. Donec id elit non mi porta gravida at eget metus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam id dolor id nibh ultricies vehicula ut id elit. Etiam porta sem malesuada magna mollis euismod.</p>
 
 						</div>
 					</div>
+					<div style="display: none;" id="album-3">
+						<div class="photo-grid-2up">
+
+							<img src="http://placehold.it/300x200&text=Left Image" />
+							<img src="http://placehold.it/300x200&text=Right Image" />
+
+							<img src="http://placehold.it/300x200&text=Left Image" />
+							<img src="http://placehold.it/300x200&text=Right Image" />
+
+							<img src="http://placehold.it/300x200&text=Left Image" />
+							<img src="http://placehold.it/300x200&text=Right Image" />
+
+							<img src="http://placehold.it/300x200&text=Left Image" />
+							<img src="http://placehold.it/300x200&text=Right Image" />
+
+							<p>Cras mattis consectetur purus sit amet fermentum. Nullam quis risus eget urna mollis ornare vel eu leo. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Maecenas faucibus mollis interdum. Cras mattis consectetur purus sit amet fermentum. Maecenas faucibus mollis interdum. Donec id elit non mi porta gravida at eget metus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam id dolor id nibh ultricies vehicula ut id elit. Etiam porta sem malesuada magna mollis euismod.</p>
+
+						</div>
+					</div>
+					<!-- end barley:owneronly -->
 
 				</article>
 
@@ -210,7 +210,7 @@
 						<h3>Links</h3>
 						<ul>
 							<li><a href="http://plainmade.com/">Made by Plain</a></li>
-							<li><a href="http://getbarley.com/">Powered by Barley</i></a></li>
+							<li><a href="http://getbarley.com/">Powered by Barley</a></li>
 						</ul>
 					</span>
 				</div>
