@@ -2852,8 +2852,9 @@ img.reveal-modal {
   margin-right: 5%;
 }
 .photo-album-container {
-  width: 48%;
+  width: 44%;
   float: left;
+  margin: 0 2%;
 }
 .photo-album-container:nth-child(even) {
   float: right;
