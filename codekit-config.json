@@ -2,28 +2,17 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "8283",
   "files" : {
-    "\/javascripts\/foundation_4\/sass\/foundation\/components\/_breadcrumbs.scss" : {
+    "\/javascripts\/foundation_4\/sass\/foundation\/components\/_pagination.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/javascripts\/foundation_4\/sass\/foundation\/components\/_breadcrumbs.scss",
+      "inputAbbreviatedPath" : "\/javascripts\/foundation_4\/sass\/foundation\/components\/_pagination.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/javascripts\/foundation_4\/sass\/foundation\/stylesheets\/_breadcrumbs.css",
+      "outputAbbreviatedPath" : "\/javascripts\/foundation_4\/sass\/foundation\/stylesheets\/_pagination.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/javascripts\/foundation_4\/javascripts\/foundation\/foundation.dropdown.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/javascripts\/foundation_4\/javascripts\/foundation\/foundation.dropdown.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/javascripts\/foundation_4\/javascripts\/foundation\/foundation.dropdown-ck.js",
-      "fileType" : 64
     },
     "\/sass\/app.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -37,6 +26,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/javascripts\/foundation_4\/javascripts\/foundation\/foundation.joyride.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/javascripts\/foundation_4\/javascripts\/foundation\/foundation.joyride.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/javascripts\/foundation_4\/javascripts\/foundation\/foundation.joyride-ck.js",
+      "fileType" : 64
+    },
     "\/javascripts\/foundation_4\/javascripts\/foundation\/foundation.topbar.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -48,15 +48,15 @@
       "outputAbbreviatedPath" : "\/javascripts\/foundation_4\/javascripts\/foundation\/foundation.topbar-ck.js",
       "fileType" : 64
     },
-    "\/javascripts\/foundation_4\/javascripts\/foundation\/foundation.joyride.js" : {
+    "\/javascripts\/foundation_4\/javascripts\/foundation\/foundation.dropdown.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/javascripts\/foundation_4\/javascripts\/foundation\/foundation.joyride.js",
+      "inputAbbreviatedPath" : "\/javascripts\/foundation_4\/javascripts\/foundation\/foundation.dropdown.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/javascripts\/foundation_4\/javascripts\/foundation\/foundation.joyride-ck.js",
+      "outputAbbreviatedPath" : "\/javascripts\/foundation_4\/javascripts\/foundation\/foundation.dropdown-ck.js",
       "fileType" : 64
     },
     "\/javascripts\/foundation_4\/sass\/foundation\/components\/_split-buttons.scss" : {
@@ -136,6 +136,18 @@
       "outputAbbreviatedPath" : "\/javascripts\/foundation_4\/javascripts\/foundation\/foundation.cookie-ck.js",
       "fileType" : 64
     },
+    "\/javascripts\/foundation_4\/sass\/foundation\/components\/_inline-lists.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/javascripts\/foundation_4\/sass\/foundation\/components\/_inline-lists.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/javascripts\/foundation_4\/sass\/foundation\/stylesheets\/_inline-lists.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
     "\/javascripts\/foundation_4\/sass\/foundation\/components\/_pricing-tables.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -148,15 +160,24 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/javascripts\/foundation_4\/sass\/foundation\/components\/_inline-lists.scss" : {
+    "\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/javascripts\/foundation_4\/sass\/foundation\/components\/_alert-boxes.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/javascripts\/foundation_4\/sass\/foundation\/components\/_inline-lists.scss",
+      "inputAbbreviatedPath" : "\/javascripts\/foundation_4\/sass\/foundation\/components\/_alert-boxes.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/javascripts\/foundation_4\/sass\/foundation\/stylesheets\/_inline-lists.css",
+      "outputAbbreviatedPath" : "\/javascripts\/foundation_4\/sass\/foundation\/stylesheets\/_alert-boxes.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -172,27 +193,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/javascripts\/foundation_4\/sass\/foundation\/components\/_alert-boxes.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/javascripts\/foundation_4\/sass\/foundation\/components\/_alert-boxes.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/javascripts\/foundation_4\/sass\/foundation\/stylesheets\/_alert-boxes.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/stylesheets\/barlicons\/barlicons.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -201,17 +201,6 @@
       "inputAbbreviatedPath" : "\/stylesheets\/barlicons\/barlicons.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
-    },
-    "\/javascripts\/foundation_4\/javascripts\/foundation\/foundation.placeholder.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/javascripts\/foundation_4\/javascripts\/foundation\/foundation.placeholder.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/javascripts\/foundation_4\/javascripts\/foundation\/foundation.placeholder-ck.js",
-      "fileType" : 64
     },
     "\/javascripts\/foundation_4\/javascripts\/foundation\/foundation.section.js" : {
       "ignoreWasSetByUser" : 0,
@@ -222,6 +211,17 @@
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/javascripts\/foundation_4\/javascripts\/foundation\/foundation.section-ck.js",
+      "fileType" : 64
+    },
+    "\/javascripts\/foundation_4\/javascripts\/foundation\/foundation.placeholder.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/javascripts\/foundation_4\/javascripts\/foundation\/foundation.placeholder.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/javascripts\/foundation_4\/javascripts\/foundation\/foundation.placeholder-ck.js",
       "fileType" : 64
     },
     "\/javascripts\/foundation_4\/javascripts\/foundation\/foundation.forms.js" : {
@@ -244,18 +244,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/javascripts\/foundation_4\/sass\/foundation\/components\/_tooltips.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/javascripts\/foundation_4\/sass\/foundation\/components\/_tooltips.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/javascripts\/foundation_4\/sass\/foundation\/stylesheets\/_tooltips.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/javascripts\/foundation_4\/sass\/foundation\/components\/_keystrokes.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -265,18 +253,6 @@
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/javascripts\/foundation_4\/sass\/foundation\/stylesheets\/_keystrokes.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/javascripts\/foundation_4\/sass\/foundation\/components\/_tables.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/javascripts\/foundation_4\/sass\/foundation\/components\/_tables.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/javascripts\/foundation_4\/sass\/foundation\/stylesheets\/_tables.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -292,6 +268,39 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/javascripts\/foundation_4\/sass\/foundation\/components\/_tables.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/javascripts\/foundation_4\/sass\/foundation\/components\/_tables.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/javascripts\/foundation_4\/sass\/foundation\/stylesheets\/_tables.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/javascripts\/foundation_4\/sass\/foundation\/components\/_tooltips.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/javascripts\/foundation_4\/sass\/foundation\/components\/_tooltips.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/javascripts\/foundation_4\/sass\/foundation\/stylesheets\/_tooltips.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/photos.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/photos.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/sass\/_media.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -304,17 +313,16 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/javascripts\/foundation_4\/sass\/foundation\/components\/_top-bar.scss" : {
+    "\/javascripts\/foundation_4\/javascripts\/foundation\/foundation.clearing.js" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/javascripts\/foundation_4\/sass\/foundation\/components\/_top-bar.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/javascripts\/foundation_4\/sass\/foundation\/stylesheets\/_top-bar.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/javascripts\/foundation_4\/javascripts\/foundation\/foundation.clearing.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/javascripts\/foundation_4\/javascripts\/foundation\/foundation.clearing-ck.js",
+      "fileType" : 64
     },
     "\/javascripts\/foundation_4\/javascripts\/foundation\/foundation.alerts.js" : {
       "ignoreWasSetByUser" : 0,
@@ -327,16 +335,17 @@
       "outputAbbreviatedPath" : "\/javascripts\/foundation_4\/javascripts\/foundation\/foundation.alerts-ck.js",
       "fileType" : 64
     },
-    "\/javascripts\/foundation_4\/javascripts\/foundation\/foundation.clearing.js" : {
+    "\/javascripts\/foundation_4\/sass\/foundation\/components\/_top-bar.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/javascripts\/foundation_4\/javascripts\/foundation\/foundation.clearing.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/javascripts\/foundation_4\/javascripts\/foundation\/foundation.clearing-ck.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/javascripts\/foundation_4\/sass\/foundation\/components\/_top-bar.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/javascripts\/foundation_4\/sass\/foundation\/stylesheets\/_top-bar.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/javascripts\/foundation_4\/sass\/foundation\/components\/_clearing.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -393,6 +402,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/javascripts\/foundation_4\/javascripts\/foundation\/foundation.magellan.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/javascripts\/foundation_4\/javascripts\/foundation\/foundation.magellan.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/javascripts\/foundation_4\/javascripts\/foundation\/foundation.magellan-ck.js",
+      "fileType" : 64
+    },
     "\/javascripts\/foundation_4\/sass\/foundation\/components\/_panels.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -405,16 +425,14 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/javascripts\/foundation_4\/javascripts\/foundation\/foundation.magellan.js" : {
+    "\/javascripts\/foundation_4\/stylesheets\/normalize.css" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/javascripts\/foundation_4\/javascripts\/foundation\/foundation.magellan.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/javascripts\/foundation_4\/javascripts\/foundation\/foundation.magellan-ck.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/javascripts\/foundation_4\/stylesheets\/normalize.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/javascripts\/foundation_4\/sass\/foundation\/components\/_dropdown.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -451,15 +469,6 @@
       "outputAbbreviatedPath" : "\/javascripts\/foundation_4\/sass\/foundation\/stylesheets\/_flex-video.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/javascripts\/foundation_4\/stylesheets\/normalize.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/javascripts\/foundation_4\/stylesheets\/normalize.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
     },
     "\/javascripts\/foundation_4\/sass\/foundation\/components\/_forms.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -554,6 +563,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/post-photos.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/post-photos.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/javascripts\/foundation_4\/javascripts\/foundation\/index.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -588,17 +606,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/javascripts\/foundation_4\/javascripts\/foundation\/foundation.reveal.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/javascripts\/foundation_4\/javascripts\/foundation\/foundation.reveal.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/javascripts\/foundation_4\/javascripts\/foundation\/foundation.reveal-ck.js",
-      "fileType" : 64
-    },
     "\/javascripts\/foundation_4\/javascripts\/foundation\/jquery.offcanvas.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -610,17 +617,27 @@
       "outputAbbreviatedPath" : "\/javascripts\/foundation_4\/javascripts\/foundation\/jquery.offcanvas-ck.js",
       "fileType" : 64
     },
-    "\/javascripts\/foundation_4\/sass\/foundation\/components\/_block-grid.scss" : {
+    "\/javascripts\/foundation_4\/javascripts\/foundation\/foundation.reveal.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/javascripts\/foundation_4\/javascripts\/foundation\/foundation.reveal.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/javascripts\/foundation_4\/javascripts\/foundation\/foundation.reveal-ck.js",
+      "fileType" : 64
+    },
+    "\/javascripts\/blog-ck.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/javascripts\/foundation_4\/sass\/foundation\/components\/_block-grid.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/javascripts\/foundation_4\/sass\/foundation\/stylesheets\/_block-grid.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/javascripts\/blog-ck.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/javascripts\/blog-ck-ck.js",
+      "fileType" : 64
     },
     "\/javascripts\/foundation_4\/sass\/foundation\/components\/_switch.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -631,6 +648,18 @@
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/javascripts\/foundation_4\/sass\/foundation\/stylesheets\/_switch.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/javascripts\/foundation_4\/sass\/foundation\/components\/_block-grid.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/javascripts\/foundation_4\/sass\/foundation\/components\/_block-grid.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/javascripts\/foundation_4\/sass\/foundation\/stylesheets\/_block-grid.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -652,15 +681,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/javascripts\/foundation_4\/sass\/foundation\/components\/_section.scss" : {
+    "\/javascripts\/foundation_4\/sass\/foundation\/components\/_type.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/javascripts\/foundation_4\/sass\/foundation\/components\/_section.scss",
+      "inputAbbreviatedPath" : "\/javascripts\/foundation_4\/sass\/foundation\/components\/_type.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/javascripts\/foundation_4\/sass\/foundation\/stylesheets\/_section.css",
+      "outputAbbreviatedPath" : "\/javascripts\/foundation_4\/sass\/foundation\/stylesheets\/_type.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -675,15 +704,15 @@
       "outputAbbreviatedPath" : "\/javascripts\/blog-ck.js",
       "fileType" : 64
     },
-    "\/javascripts\/foundation_4\/sass\/foundation\/components\/_type.scss" : {
+    "\/javascripts\/foundation_4\/sass\/foundation\/components\/_section.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/javascripts\/foundation_4\/sass\/foundation\/components\/_type.scss",
+      "inputAbbreviatedPath" : "\/javascripts\/foundation_4\/sass\/foundation\/components\/_section.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/javascripts\/foundation_4\/sass\/foundation\/stylesheets\/_type.css",
+      "outputAbbreviatedPath" : "\/javascripts\/foundation_4\/sass\/foundation\/stylesheets\/_section.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -718,18 +747,6 @@
       "initialSize" : 16934,
       "fileType" : 4096
     },
-    "\/javascripts\/foundation_4\/sass\/foundation\/components\/_side-nav.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/javascripts\/foundation_4\/sass\/foundation\/components\/_side-nav.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/javascripts\/foundation_4\/sass\/foundation\/stylesheets\/_side-nav.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/javascripts\/foundation_4\/sass\/normalize.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -752,6 +769,18 @@
       "outputAbbreviatedPath" : "\/images\/sample_photo.jpg",
       "initialSize" : 8742,
       "fileType" : 4096
+    },
+    "\/javascripts\/foundation_4\/sass\/foundation\/components\/_side-nav.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/javascripts\/foundation_4\/sass\/foundation\/components\/_side-nav.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/javascripts\/foundation_4\/sass\/foundation\/stylesheets\/_side-nav.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/stylesheets\/app.css" : {
       "ignoreWasSetByUser" : 0,
@@ -807,15 +836,38 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/javascripts\/foundation_4\/sass\/foundation\/components\/_pagination.scss" : {
+    "\/images\/sample_ad.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/sample_ad.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/sample_ad.png",
+      "initialSize" : 2596,
+      "fileType" : 8192
+    },
+    "\/javascripts\/foundation_4\/sass\/foundation\/components\/_breadcrumbs.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/javascripts\/foundation_4\/sass\/foundation\/components\/_pagination.scss",
+      "inputAbbreviatedPath" : "\/javascripts\/foundation_4\/sass\/foundation\/components\/_breadcrumbs.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/javascripts\/foundation_4\/sass\/foundation\/stylesheets\/_pagination.css",
+      "outputAbbreviatedPath" : "\/javascripts\/foundation_4\/sass\/foundation\/stylesheets\/_breadcrumbs.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/javascripts\/foundation_4\/sass\/_settings.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/javascripts\/foundation_4\/sass\/_settings.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/javascripts\/foundation_4\/stylesheets\/_settings.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -829,18 +881,6 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/javascripts\/foundation_4\/javascripts\/foundation\/foundation-ck.js",
       "fileType" : 64
-    },
-    "\/javascripts\/foundation_4\/sass\/_settings.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/javascripts\/foundation_4\/sass\/_settings.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/javascripts\/foundation_4\/stylesheets\/_settings.css",
-      "fileType" : 4,
-      "debugStyle" : 0
     },
     "\/javascripts\/foundation_4\/javascripts\/foundation.min.js" : {
       "ignoreWasSetByUser" : 0,
@@ -863,17 +903,6 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/javascripts\/foundation_4\/javascripts\/vendor\/jquery-ck.js",
       "fileType" : 64
-    },
-    "\/images\/sample_ad.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/sample_ad.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/sample_ad.png",
-      "initialSize" : 2596,
-      "fileType" : 8192
     }
   },
   "manualImportLinks" : [
