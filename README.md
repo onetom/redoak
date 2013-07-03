@@ -1,34 +1,9 @@
-Red Oak
+Red Oak: A Responsive Blogging Template for Barley
 ======
-A responsive blogging theme for [Barley](http://getbarley.com/)
 
-Don't forget to review the [Barley Theme Documentation](http://plainmade.com/blog/5/draft-barley-template-documentation).
+[Barley](http://getbarley.com/) and Red Oak are being made by [Plain](http://plainmade.com/).
 
-## How to customize Red Oak for your use
+LICENSE
+==
 
-1. Fork this repository into your own GitHub account.
-2. Copy stylesheets/sample.app.css to stylesheets/custom.app.css
-3. Edit custom.app.css for your needs
-4. Authenticate Barley with Dropbox.
-	- Log into Barley
-	- From the Barley Menu choose Sites > View / Edit All > Choose Sync Template option
-5. Place Red Oak into your Dropbox folder at /Dropbox/Apps/Barley Sync/sitename.getbarley.com
-6. When Dropbox syncs your template will be up-to-date
-
-Important: Your directory name for your template must match your Barley subdomain.
-
-
-## Update history for Red Oak
-
-- April 19:
-	- Update 2:
-		- Updated Search function.
-		- Updated Social links.
-		- Updated srcs for JS CSS
-	- Updated Search function.
-	- Added title attributes to navigation
-	- Changed footer Copyright text
-	- Updated Title of Site
-	- Added /stylesheets/sample.app.css
-	- Added call to custom.app.css
-	- Updated README
+You can feel free to use this template in anyway you want. Give attribution, don't give attribution, it is up to you.
