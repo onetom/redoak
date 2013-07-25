@@ -1,0 +1,171 @@
+ <!DOCTYPE html>
+<!--[if IE 8]> <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width" />
+	<title></title>
+	<base href="/">
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="/javascripts/foundation_4/stylesheets/normalize.css" />
+	<link rel="stylesheet" href="/stylesheets/app.css" />
+	<!-- Uncomment this line to style Red Oak yourself <link rel="stylesheet" href="stylesheets/custom.app.css" /> -->
+	<link rel="stylesheet" href="/stylesheets/offcanvas.css" />
+	<link rel="stylesheet" href="/stylesheets/barlicons/barlicons.css" />
+
+	<!-- RSS -->
+  	<link rel="alternate" type="application/rss+xml" title="Full Blog Entries Feed" href="/feed" />
+
+	<!-- Google Fonts -->
+	<link href='//fonts.googleapis.com/css?family=Alegreya:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
+	<link href='//fonts.googleapis.com/css?family=PT+Mono' rel='stylesheet' type='text/css'>
+
+	<script src="/javascripts/foundation_4/javascripts/vendor/custom.modernizr.js"></script>
+
+</head>
+<body id="page" class="off-canvas hide-extras">
+
+	<!-- Header -->
+	<header>
+		<div class="identity show-for-small" id="identityTop"></div>
+		<a class="menu-toggle show-for-small sidebar-button" id="sidebarButton"><i class="barley-icon-reorder"></i></a>
+	</header>
+
+<div class="row wrapper">
+
+	<!-- Start Main Page Content -->
+	<section role="main">
+
+		<!-- Top Color Strip -->
+		<div class="row top-strip"></div>
+
+		<div class="row content">
+			<div class="large-8 columns main" id="left-col">
+
+			<!-- Post Content -->
+				<article class="group">
+					<h2 data-barley="blogpost_title" data-barley-editor="mini"></h2>
+
+					<div class="meta">
+						<span class="meta-publish-date">
+							<i class="barley-icon-time"></i><span class="published_on" id="blogpost_published_on" data-barley="blogpost_published_on"></span>
+						</span>
+					</div>
+
+					<span data-barley="blogpost_body" data-barley-editor="advanced"></span>
+				</article>
+
+</div>
+					<!-- Sidebar -->
+			<div class="large-4 columns sidebar hide-for-small" id="right-col">
+				<div id="sideNav">
+				<div class="hide-for-small">
+					<div class="sidebar-zone identity" id="identitySide">
+						<span data-barley-editor="image" data-barley="sidebar_image">
+							<a href="/"><img src="/images/sample_photo.jpg" class="photo"></a>
+						</span>
+						<!--<a href="index.html">-->
+							<!-- Photo --><!--<img src="/images/sample_photo.jpg" class="photo"> -->
+							<!-- Logo --><!--<img src="/images/logo.svg" width="160" height="160" class="logo"> -->
+							<!-- Text --><!--<h1>Porta Amet</h1>-->
+						<!--</a>-->
+					</div>
+				</div>
+				<div class="sidebar-zone intro hide-for-small">
+					<h3 data-barley="redoak_index_title" data-barley-editor="mini">Red Oak: A responsive blogging theme built for Barley</h3>
+					<div data-barley="sidebar_about" data-barley-editor="plus">
+						<p><a href="http://github.com/plainmade/redoak/">The Red Oak theme</a> was built with the blogger in mind. Powered by Barley.</p>
+					</div>
+				</div>
+				<div class="sidebar-zone search">
+					<script language="javascript">
+						function barleySearch() {
+							var hostname = window.location.hostname;
+							window.location = 'https://www.google.com/search?q=site%3A'+hostname+'+'+encodeURIComponent($('#searchtext').val())+'&aq=f&oq=site%3A'+hostname+'+'+encodeURIComponent($('#searchtext').val());
+						}
+					</script>
+					<form name="search-posts" method="post">
+						<input type="search" name="searchtext" id="searchtext" placeholder="Search Posts..." /><a href="#" onclick="barleySearch(); return false;" class="submit-button"><i class="barley-icon-circle-arrow-right"></i></a>
+					</form>
+				</div>
+				<div class="sidebar-zone nav-link-list">
+					<h3>Pages</h3>
+					<ul>
+						
+						<li><a href="index.html" title="Go to homepage">Blog</a></li>
+						<li><a href="about.html" title="Go to About page">About</a></li>
+						<!-- navigation -->
+						<li><a href="%URL%" title="Go to %PAGE% page">%PAGE%</a></li>
+						<!-- endnavigation -->
+						<li><a href="photos.html" title="Go to Photo Albums">Photo Albums</a></li>
+					</ul>
+				</div>
+				<div class="sidebar-zone nav-list">
+					<span data-barley="redoak_sidebar_section_social" data-barley-editor="advanced">
+						<h3>Find Me On</h3>
+						<ul>
+							<li><a href="http://twitter.com/getbarley" title="Follow me on Twitter" rel="me">@getbarley</a></li>
+							<li><a href="http://github.com/plainmade/" title="Follow me on GitHub" rel="me">github.com/plainmade</a></li>
+						</ul>
+					</span>
+				</div>
+				<div class="sidebar-zone nav-list">
+					<span data-barley="redoak_sidebar_section_links" data-barley-editor="advanced">
+						<h3>Links</h3>
+						<ul>
+							<li><a href="http://plainmade.com/">Made by Plain</a></li>
+							<li><a href="http://getbarley.com/">Powered by Barley</i></a></li>
+						</ul>
+					</span>
+				</div>
+			</div>
+			</div>
+			<!-- end Sidebar -->
+
+		</div>
+
+		<!-- Footer -->
+		<div class="row">
+			<footer>
+				<div class="footer-links group hide-for-small">
+					<a class="back-to-top" href="#top"><i class="barley-icon-circle-arrow-up"></i>Back to Top</a>
+					<ul class="footer-nav">					
+						<!-- barleynav -->
+						<li><a href="index.html" title="Go to homepage">Blog</a></li>
+						<li><a href="about.html" title="Go to About page">About</a></li>
+						<li><a href="photos.html" title="Go to Photo Albums">Photo Albums</a></li>
+						<!-- endbarleynav -->
+					</ul>
+				</div>
+				<div class="final group">
+					<a class="barley-badge" href="http://getbarley.com"><i class="barley-icon-barley"></i>Powered by Barley</a>
+					<span class="copyright" data-barley="footer_copyright" data-barley-editor="mini">&copy; John Doe. All rights reserved.</span>
+				</div>
+			</footer>
+		</div>
+
+	</section>
+	<!-- End Main Page Content -->
+
+	<!-- Mobile Nav -->
+	<section role="complementary">
+		<div id="sideMenu" class="sidebar show-for-small"></div>
+	</section>
+
+</div>
+	
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="javascripts/foundation_4/javascripts/foundation/foundation.js"></script>
+	<script src="javascripts/foundation_4/javascripts/foundation/foundation.clearing.js"></script>
+	<script src="javascripts/foundation_4/javascripts/foundation/foundation.cookie.js"></script>
+	<script src="javascripts/foundation_4/javascripts/foundation/foundation.forms.js"></script>
+	<script src="javascripts/foundation_4/javascripts/foundation/foundation.placeholder.js"></script>
+	<script src="javascripts/foundation_4/javascripts/foundation/foundation.section.js"></script>
+	<script src="javascripts/foundation_4/javascripts/foundation/jquery.offcanvas.js"></script>
+
+  	<script src="javascripts/blog.js"></script>
+
+</body>
+</html>
