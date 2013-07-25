@@ -26,3 +26,22 @@ if ($('#album_tools').length > 0) {
         if (typeof BarleyTools != 'undefined') { BarleyTools('findImages'); }
     });
 }
+
+// Use Google to search blog
+function barleySearch() {
+  var hostname = window.location.hostname;
+  window.location = 'https://www.google.com/search?q=site%3A'+hostname+'+'+encodeURIComponent($('#searchtext').val())+'&aq=f&oq=site%3A'+hostname+'+'+encodeURIComponent($('#searchtext').val());
+}
+
+// When searching allow enter to be pressed too.
+$('#searchtext').keypress(function(e) {
+  e.preventDefault;
+  if (event.keyCode == '13') {
+       barleySearch();
+   }
+});
+// When searching allow clicking the submit button
+$('#searchbutton').click(function(e) {
+  e.preventDefault;
+  barleySearch();
+});

@@ -103,15 +103,7 @@
 					</div>
 				</div>
 				<div class="sidebar-zone search">
-					<script language="javascript">
-						function barleySearch() {
-							var hostname = window.location.hostname;
-							window.location = 'https://www.google.com/search?q=site%3A'+hostname+'+'+encodeURIComponent($('#searchtext').val())+'&aq=f&oq=site%3A'+hostname+'+'+encodeURIComponent($('#searchtext').val());
-						}
-					</script>
-					<form name="search-posts" method="post">
-						<input type="search" name="searchtext" id="searchtext" placeholder="Search Posts..." /><a href="#" onclick="barleySearch(); return false;" class="submit-button"><i class="barley-icon-circle-arrow-right"></i></a>
-					</form>
+						<input type="search" name="searchtext" id="searchtext" placeholder="Search Posts..." /><a href="#" id="searchbutton" class="submit-button"><i class="barley-icon-circle-arrow-right"></i></a>
 				</div>
 				<div class="sidebar-zone nav-link-list">
 					<h3>Pages</h3>
