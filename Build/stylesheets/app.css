@@ -2684,11 +2684,11 @@ a.back-to-top {
   margin-right: 2px; }
   .footer-nav li {
     float: left;
-    padding: 0 12px;
+    padding: 0 12px 0 0;
     font-size: 15px; }
     .footer-nav li:after {
       content: "•";
-      margin: 0 -12px 0 12px;
+      margin: 0 0 0 12px;
       color: rgba(0, 0, 0, 0.15); }
     .footer-nav li:last-child {
       padding-right: 0; }
