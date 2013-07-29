@@ -2024,24 +2024,24 @@ header {
   padding-bottom: 30px; }
 
 /*.main-shadow {
-	clear: both;
-	height: 110px;
-	box-shadow: 0 1px 0 0 rgba(255,255,255,1) inset, 0 -30px 64px -28px rgba(0,0,0,0.16) inset;
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	width: 100%;
+  clear: both;
+  height: 110px;
+  box-shadow: 0 1px 0 0 rgba(255,255,255,1) inset, 0 -30px 64px -28px rgba(0,0,0,0.16) inset;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }*/
 .sidebar {
   padding: 20px; }
 
 /*.sidebar-shadow {
-	box-shadow: 220px 0 630px -80px rgba(0,0,0,0.01) inset, 1px 0 4px 0 rgba(0,0,0,0.08) inset;
-	position: absolute;
-	left: 0;
-	top: 0;
-	width: 100%;
-	height: 100%;
+  box-shadow: 220px 0 630px -80px rgba(0,0,0,0.01) inset, 1px 0 4px 0 rgba(0,0,0,0.08) inset;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
 }*/
 .sidebar-spacer {
   clear: both;
@@ -2171,29 +2171,29 @@ article, section {
       padding-bottom: 8px;
       margin-bottom: 28px;
       /*&:before {
-      	display: block;
-      	width: 20px;
-      	height: 20px;
-      	position: absolute;
-      	margin: 26px 0 0 -42px;
-      	border-radius: 50%;
-      	background: rgb(214,141,32);
-      	background: -moz-linear-gradient(top,  rgba(214,141,32,1) 0%, rgba(198,116,15,1) 100%);
-      	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(214,141,32,1)), color-stop(100%,rgba(198,116,15,1)));
-      	background: -webkit-linear-gradient(top,  rgba(214,141,32,1) 0%,rgba(198,116,15,1) 100%); 
-      	background: -o-linear-gradient(top,  rgba(214,141,32,1) 0%,rgba(198,116,15,1) 100%); 
-      	background: -ms-linear-gradient(top,  rgba(214,141,32,1) 0%,rgba(198,116,15,1) 100%); 
-      	background: linear-gradient(to bottom,  rgba(214,141,32,1) 0%,rgba(198,116,15,1) 100%); 
-      	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d68d20', endColorstr='#c6740f',GradientType=0 );
-      	box-shadow: 0 1px 4px 0 rgba(0,0,0,0.1), 0 1px 1px 0 rgba(0,0,0,0.13), 0 0 0 5px rgba(0,0,0,0.035);
-      	content: "+";
-      	font-weight: normal;
-      	font-family: sans-serif;
-      	font-size: 15px;
-      	text-align: center;
-      	line-height: 18px;
-      	color: rgba(255,255,255,0.8);
-      	padding: 0;
+        display: block;
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        margin: 26px 0 0 -42px;
+        border-radius: 50%;
+        background: rgb(214,141,32);
+        background: -moz-linear-gradient(top,  rgba(214,141,32,1) 0%, rgba(198,116,15,1) 100%);
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(214,141,32,1)), color-stop(100%,rgba(198,116,15,1)));
+        background: -webkit-linear-gradient(top,  rgba(214,141,32,1) 0%,rgba(198,116,15,1) 100%); 
+        background: -o-linear-gradient(top,  rgba(214,141,32,1) 0%,rgba(198,116,15,1) 100%); 
+        background: -ms-linear-gradient(top,  rgba(214,141,32,1) 0%,rgba(198,116,15,1) 100%); 
+        background: linear-gradient(to bottom,  rgba(214,141,32,1) 0%,rgba(198,116,15,1) 100%); 
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d68d20', endColorstr='#c6740f',GradientType=0 );
+        box-shadow: 0 1px 4px 0 rgba(0,0,0,0.1), 0 1px 1px 0 rgba(0,0,0,0.13), 0 0 0 5px rgba(0,0,0,0.035);
+        content: "+";
+        font-weight: normal;
+        font-family: sans-serif;
+        font-size: 15px;
+        text-align: center;
+        line-height: 18px;
+        color: rgba(255,255,255,0.8);
+        padding: 0;
       }*/ }
       article h4.time a.expand, section h4.time a.expand {
         display: block;
@@ -2229,7 +2229,7 @@ article, section {
         color: rgba(0, 0, 0, 0.45); }
       article h4.time.active, section h4.time.active {
         /*&:before {
-        	content: "–";
+          content: "–";
         }*/ }
   article table, section table {
     border: none;
